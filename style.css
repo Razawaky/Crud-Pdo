@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: auto;
+    background: black;
+    align-items: center;
+    padding: 15px;
+    height: 120px;
+    color: white;
+}
+
+nav li {
+    display: inline-flex;
+    margin: 10px;
+}
+
+nav li a {
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+    padding: 3px 3px;
+}
+
+
+section {
+    margin-top: 12rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
