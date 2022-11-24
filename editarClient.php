@@ -2,14 +2,18 @@
 include_once "conexao.php";
 
 try {
-$id = filter_var($_POST['id'], FILTER_SANITIZE_NUMBER_INT);
+$cod_cliente = filter_var($_POST['cod_cliente'], FILTER_SANITIZE_NUMBER_INT);
 $nome = filter_var($_POST['nome']);
-$login = filter_var($_POST['login']);
+$endereco = filter_var($_POST['endereco']);
+$cidade = filter_var($_POST['cidade']);
+$cep = filter_var($_POST['cep']);
 
-$update = $conectar -> prepare ("UPDATE login SET nome = :nome, login = :login WHERE id = :id");
-$update ->bindParam(':id',$id);
+$update = $conectar -> prepare ("UPDATE cliente SET nome = :nome, endereco = :endereco, cidade = :cidade, cep = :cep WHERE cod_cliente = :cod_cliente");
+$update ->bindParam(':cod_cliente',$cod_cliente);
 $update ->bindParam(':nome',$nome);
-$update ->bindParam(':login',$login);
+$update ->bindParam(':endereco',$endereco);
+$update ->bindParam(':cidade',$cidade);
+$update ->bindParam(':cep',$cep);
 $update ->execute();
 
 header("location: index.php");
