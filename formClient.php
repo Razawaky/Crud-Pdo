@@ -8,9 +8,11 @@
 </head>
 <body>
 
-    <form action="cadastro.php" method="post">
+    <form action="cadastroClient.php" method="post">
     Nome: <input type="text" name="nome" id="nome"/><br>
-    Login: <input type="text" name="login" id="login"/><br>
+    endereco: <input type="text" name="endereco" id="endereco"/><br>
+    cidade: <input type="text" name="cidade" id="cidade"/><br>
+    cep: <input type="text" name="cep" id="cep"/><br>
     <input type="submit" value="cadastrar">
     </form>
     

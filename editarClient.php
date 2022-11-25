@@ -16,7 +16,7 @@ $update ->bindParam(':cidade',$cidade);
 $update ->bindParam(':cep',$cep);
 $update ->execute();
 
-header("location: index.php");
+header("location: homeClient.php");
 
 } catch(PDOException $e) {
 echo 'Erro: '.$e->getMessage();

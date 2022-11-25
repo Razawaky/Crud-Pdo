@@ -16,10 +16,12 @@ $linha = $consulta -> fetch(PDO::FETCH_ASSOC);
 </head>
 <body>
     
-<form action="editar.php" method="post">
+<form action="editarVeterinario.php" method="post">
 Nome: <input type="text" name="nome" value="<?php echo $linha['nome']?>" id="nome"/><br>
-Login: <input type="text" name="login" value="<?php echo $linha['login']?>" id="login"/><br>
-<input type="hidden" name="id" value="<?php echo $linha['id']?>">
+crm: <input type="text" name="crm" value="<?php echo $linha['crm']?>" id="crm"/><br>
+cpf: <input type="text" name="cpf" value="<?php echo $linha['cpf']?>" id="cpf"/><br>
+email: <input type="text" name="email" value="<?php echo $linha['email']?>" id="email"/><br>
+<input type="hidden" name="cod_vet" value="<?php echo $linha['cod_vet']?>">
 <input type="submit" value="Editar">
 </form>
 
