@@ -8,6 +8,14 @@
     font-weight: 500;
 }
 
+body {
+    background-image: url('img/fundo\ .png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 .header-nav {
     width: auto;
     background: #000000;
