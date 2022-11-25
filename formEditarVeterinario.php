@@ -1,8 +1,8 @@
 <?php
 
 include_once "conexao.php";
-$id = filter_var($_GET['id'], FILTER_SANITIZE_NUMBER_INT);
-$consulta = $conectar -> query("SELECT * FROM login where id = '$id' ");
+$cod_vet = filter_var($_GET['cod_vet'], FILTER_SANITIZE_NUMBER_INT);
+$consulta = $conectar -> query("SELECT * FROM vet where cod_vet = '$cod_vet' ");
 $linha = $consulta -> fetch(PDO::FETCH_ASSOC);
 ?>
 
