@@ -15,7 +15,7 @@ $linha = $consulta -> fetch(PDO::FETCH_ASSOC);
     <title>Document</title>
 </head>
 <body>
-    
+
 <form action="editar.php" method="post">
 Nome: <input type="text" name="nome" value="<?php echo $linha['nome']?>" id="nome"/><br>
 Login: <input type="text" name="login" value="<?php echo $linha['login']?>" id="login"/><br>
