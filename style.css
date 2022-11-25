@@ -52,8 +52,32 @@ body {
 section {
     margin-top: 10rem;
     padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .content {
     padding: 20px;
+    border-radius: 18px;
+    background-color: rgba(255, 255, 255, 0.959);
+    width: 80%;
+    height: 20rem;
+}
+
+.cnbnt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+section button {
+    background-color: black;
+    cursor: pointer;
+    color: white;
+    margin: 20px;
+    width: 150px;
+    height: 30px;
+    border-radius: 2rem;
 }
