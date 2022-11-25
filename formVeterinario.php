@@ -8,9 +8,11 @@
 </head>
 <body>
 
-    <form action="cadastro.php" method="post">
+    <form action="cadastroVeterinario.php" method="post">
     Nome: <input type="text" name="nome" id="nome"/><br>
-    Login: <input type="text" name="login" id="login"/><br>
+    Crm: <input type="text" name="crm" id="crm"/><br>
+    cpf: <input type="text" name="cpf" id="cpf"/><br>
+    Email: <input type="text" name="email" id="email"/><br>
     <input type="submit" value="cadastrar">
     </form>
     
