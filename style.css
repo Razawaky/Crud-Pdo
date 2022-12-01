@@ -20,15 +20,13 @@ body {
     width: auto;
     background: #000000;
     display: flex;
+    justify-content: center;
     align-items: center;
     padding: 10px;
     height: 124px;
     color: white;
 }
 
-.img-logo {
-    margin-right: 450px;
-}
 
 #nav li {
     display: inline-flex;
@@ -69,8 +67,9 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 10px;
+    margin: 6px;
 }
+
 
 section button {
     background-color: black;
@@ -80,4 +79,12 @@ section button {
     width: 150px;
     height: 30px;
     border-radius: 2rem;
+    transition: all .5s;
+}
+
+section button:hover {
+    background: transparent;
+    color: black;
+    transition: all .5s;
+    width: 158px;
 }
