@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Macondo&family=Mochiy+Pop+One&family=Montserrat&family=Poppins:ital,wght@0,400;0,700;1,100;1,400&family=Roboto:wght@100&display=swap');
+
+
+* {
+    padding: 0px;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400; 
+}
+
+a {
+    text-decoration: none;
+    color: rgb(46, 115, 245);
+}
+
+button {
+    background-color: black;
+    cursor: pointer;
+    color: white;
+    margin: 10px;
+    width: 150px;
+    height: 30px;
+    border-radius: 2rem;
+    transition: all .5s;
+}
+
+button:hover {
+    background: transparent;
+    color: black;
+    transition: all .5s;
+    width: 158px;
+}
