@@ -30,3 +30,18 @@ button:hover {
     transition: all .5s;
     width: 158px;
 }
+
+.tabela {
+    margin-left: 5px;
+}
+
+.tabela tr td  {
+    border: none;
+    padding: 2px;
+    border-bottom: 2px solid black;
+    border-right: 1px solid black;
+}
+
+table {
+    border: none;
+}
